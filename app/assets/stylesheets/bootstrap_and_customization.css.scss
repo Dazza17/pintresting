@@ -1,6 +1,22 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Titan+One);
 $body-bg: #95a5a6;
+$font-family-sans-serif: 'Titan One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-inverse-bg: #27ae60;
 $navbar-inverse-link-color: white;
 $brand-primary: #f39c12;
 $jumbotron-bg: #bdc3c7;
+
  @import 'bootstrap';
+
+ .center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+     font-family-sans-serif: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.btn btn-primary{	
+	font-family-sans-serif: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
